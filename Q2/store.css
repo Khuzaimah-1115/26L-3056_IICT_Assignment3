@@ -1,0 +1,68 @@
+/* store.css: Parts 7, 8, 12, 13, 14, 15 */
+
+/* Part 7: body background, font, centred h1 */
+body {
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Part 8: all paragraphs grey (overridden by internal CSS in Part 9) */
+p {
+  color: #555;
+}
+
+/* Part 12: table borders and header */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+thead tr:first-child th {
+  background-color: #ffd166;
+  font-weight: bold;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+/* Part 13: submit button with hover */
+button[type="submit"] {
+  background: #2a9d8f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #21867a;
+}
+
+/* Part 14: nested list styles */
+ul {
+  list-style-type: square;
+}
+
+ul ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+/* Part 15: shadow and padding around the table */
+.table-wrap {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+}
